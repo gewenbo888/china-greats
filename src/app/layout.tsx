@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "中国伟人图鉴 · Greats of China" }],
     title: "中国伟人图鉴 | Greats of China",
     description:
       "三十四省，三千年底蕴——每个省区最值得记住的人物。",
@@ -37,6 +38,7 @@ export const metadata: Metadata = {
     alternateLocale: ["en_US"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "中国伟人图鉴 | Greats of China",
     description: "三十四省，三千年底蕴——每个省区最值得记住的人物。",
